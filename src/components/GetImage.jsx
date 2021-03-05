@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { APIKEY } from "../config";
+
 
 class GetImage extends Component {
     constructor(props) {

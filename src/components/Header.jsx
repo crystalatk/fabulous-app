@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom";
+
 
 const Header = (props) => {
     return (
-        <Link to='/'>
             <header className="App-header">
-                <h1>Create a Birthday Card for a friend!</h1>
+                <h1>This is how your Pull Request went...</h1>
             </header>
-        </Link>
         
     )
 }

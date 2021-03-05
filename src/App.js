@@ -12,7 +12,7 @@ function App() {
         <Route exact path='/'>
           <Input />
         </Route>
-        <Route path={`/:name`}>
+        <Route path={`/:name/:type`}>
           <SendToFetch />
         </Route>
       </Router>

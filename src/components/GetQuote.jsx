@@ -10,8 +10,8 @@ class GetQuote extends Component {
     }
 
     async componentDidMount () {
-        const { name } = this.props;
-        const url = `https://www.foaas.com/asshole/${name}`;
+        const { name, type } = this.props;
+        const url = `https://www.foaas.com/${type}/${name}`;
         const quoteData = await fetch(url, {
             headers: {'Accept': 'application/json'}
         })

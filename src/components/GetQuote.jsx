@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Message from "./Message";
+import Name from "./Name";
 
 class GetQuote extends Component {
     constructor(props) {
@@ -26,8 +28,8 @@ class GetQuote extends Component {
     render() {
         return (
             <>
-                <h1>{this.state.quote}</h1>
-                <h3>{this.state.from}</h3>
+                <Message>{this.state.quote}</Message>
+                <Name>{this.state.from}</Name>
             </>
         )
     }

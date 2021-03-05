@@ -2,6 +2,7 @@ import GetImage from "./GetImage";
 import GetQuote from './GetQuote';
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import LinkHome from "./LinkHome";
 
 
 
@@ -12,7 +13,7 @@ const SendToFetch = (props) => {
             <GetImage />
             <GetQuote name={name} type={type}/>
             <Link to='/'>
-                <h5>Need more? Click here</h5>
+                <LinkHome className="link">Need Another Message? Click here</LinkHome>
             </Link>
         </>
     )

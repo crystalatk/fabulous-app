@@ -11,4 +11,34 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 30px auto;
+}
+
+body {
+  background-color: rgb(40, 44, 52);
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: rgb(40, 44, 52);
+  background-color: rgb(40, 44, 52);
+  background-image: linear-gradient(
+    to right,
+    rgba(40, 44, 52, 0),
+    rgba(132, 201, 21),
+    rgba(40, 44, 52, 0)
+  );
+  margin: auto auto 30px;
+  width: 75%;
+}
+
+.test {
+  background-color: rgb(22, 219, 245);
+}
+
+.link {
+  text-decoration: none;
 }
